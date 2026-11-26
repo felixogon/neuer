@@ -44,6 +44,18 @@ Head RGB-D camera
 
 Background notes: [computer vision primer](docs/cv-primer.md).
 
+## Results so far
+
+Stage 1 compared four detectors on 21 hand-labelled webcam clips (distance, speed, lighting, occlusion, clutter, two balls).
+
+<p align="center"><img src="perception/results/videos/shake.gif" width="480" alt="Overlay of every method's detections on a shaken tennis ball"></p>
+
+| Method | Recall | Max reliable distance | Latency (median) | ≈ FPS |
+|---|---|---|---|---|
+| `opencv-color` | 92 % | ≥ 3.6 m | 2.3 ms | 439 |
+| `yolo26n` | 39 % | 0.6 m | 11.9 ms | 84 |
+| `efficienttam-ti-512` (GT prompt) | 100 % | ≥ 3.6 m | 101 ms | 10 |
+
 ## Hardware
 
 The G1 needs a camera mount that stays stable during fast movements. I am designing a custom **head for the G1 in SolidWorks** with an integrated depth camera, using FEA to validate the parts.
@@ -57,12 +69,16 @@ The G1 needs a camera mount that stays stable during fast movements. I am design
 ## Roadmap
 
 **Blocking**
-- [ ] Perception benchmark on a webcam: OpenCV colour vs YOLO vs SAM 2 vs EfficientTAM across distance, speed, lighting, occlusion and clutter ([protocol](docs/perception-benchmark.md), [code](perception/), [results](perception/results/RESULTS.md))
-- [ ] Camera calibration and camera-to-head extrinsics
-- [ ] Color-based ball detection baseline
+- [x] Perception benchmark on a webcam: OpenCV colour vs YOLO vs SAM 2 vs EfficientTAM across distance, speed, lighting, occlusion and clutter ([protocol](docs/perception-benchmark.md), [code](perception/), [results](perception/results/RESULTS.md))
+- [x] Camera calibration pipeline (validated on the MacBook webcam, 0.17 px RMS)
+- [ ] Head camera intrinsics + camera-to-head extrinsics
+- [x] Color-based ball detection baseline (webcam)
 - [ ] 3D tracking with head-motion compensation, validated against OptiTrack
 - [ ] Kalman filter shot prediction
 - [ ] Learned detector on Jetson
+- [ ] Fine-tune YOLO on labelled frames (split by clip)
+- [ ] Repeat key benchmark tests with a size-5 football
+- [ ] Pick out the target ball among several (association in the Kalman filter)
 - [ ] Save policy trained in simulation with perception noise and latency
 - [ ] Custom camera head (SolidWorks, FEA)
 - [ ] Hardware experiments on the G1
