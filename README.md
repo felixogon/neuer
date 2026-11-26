@@ -37,7 +37,7 @@ Head RGB-D camera
 ```
 
 1. **Calibration.** Estimate the camera intrinsics and the transform from the camera to the robot's head, so detections are expressed in the robot's frame.
-2. **Detection.** Start with a fast color-based detector as a baseline, then move to a learned detector running on the onboard Jetson.
+2. **Detection.** Start with a fast color-based detector as a baseline, then move to a learned detector running on the onboard Jetson. The webcam benchmark (below) showed that a pretrained detector misses most hand-held balls, so it is fine-tuned on our own labelled frames before moving to the Jetson.
 3. **3D tracking.** Use depth to place the ball in 3D, and compensate for the robot's own head motion so the estimate stays stable while it moves.
 4. **Prediction.** A Kalman filter tracks the ball and predicts where and when it will reach the goal. This becomes the target for the save.
 5. **Save policy.** Train the policy in simulation with realistic perception noise and latency, so it tolerates the imperfect estimates a real camera produces, then deploy it on hardware.
@@ -46,7 +46,7 @@ Background notes: [computer vision primer](docs/cv-primer.md).
 
 ## Results so far
 
-Stage 1 compared four detectors on 21 hand-labelled webcam clips (distance, speed, lighting, occlusion, clutter, two balls).
+Stage 1 compared four methods (two detectors, two trackers) on 21 hand-labelled webcam clips (distance, speed, lighting, occlusion, clutter, two balls).
 
 <p align="center"><img src="perception/results/videos/shake.gif" width="480" alt="Overlay of every method's detections on a shaken tennis ball"></p>
 
@@ -55,6 +55,16 @@ Stage 1 compared four detectors on 21 hand-labelled webcam clips (distance, spee
 | `opencv-color` | 92 % | ≥ 3.6 m | 2.3 ms | 439 |
 | `yolo26n` | 39 % | 0.6 m | 11.9 ms | 84 |
 | `efficienttam-ti-512` (GT prompt) | 100 % | ≥ 3.6 m | 101 ms | 10 |
+| `sam2.1-tiny` (GT prompt) | 100 % | ≥ 3.6 m | 995 ms | 1 |
+| `yolo26n+sam2.1-tiny` | 64 % | 0.6 m | 994 ms | 1 |
+
+GT prompt = the tracker was given the ball's first labelled position (best case). `yolo26n+sam2.1-tiny` = the same tracker started from YOLO's first detection (realistic case).
+
+- **Colour thresholding is the best real-time option** for a fluorescent ball, but it takes a second same-coloured ball for the target (17 false positives with two tennis balls in view).
+- **Pretrained YOLO misses hand-held tennis balls even at a 0.01 confidence threshold** (≈ 65 % recall at best), so it needs fine-tuning on our own data.
+- **Depth from apparent ball size has 15–19 cm of noise** (σ), so 3D tracking needs the RGB-D camera.
+
+Full results: [perception/results/RESULTS.md](perception/results/RESULTS.md) · findings and protocol: [docs/perception-benchmark.md](docs/perception-benchmark.md)
 
 ## Hardware
 
