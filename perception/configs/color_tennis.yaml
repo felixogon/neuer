@@ -1,0 +1,12 @@
+hsv_lo:
+- 25
+- 73
+- 50
+hsv_hi:
+- 45
+- 255
+- 255
+blur_ksize: 5
+morph_ksize: 5
+min_radius_px: 2.0
+min_fill: 0.45

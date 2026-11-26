@@ -42,6 +42,8 @@ Head RGB-D camera
 4. **Prediction.** A Kalman filter tracks the ball and predicts where and when it will reach the goal. This becomes the target for the save.
 5. **Save policy.** Train the policy in simulation with realistic perception noise and latency, so it tolerates the imperfect estimates a real camera produces, then deploy it on hardware.
 
+Background notes: [computer vision primer](docs/cv-primer.md).
+
 ## Hardware
 
 The G1 needs a camera mount that stays stable during fast movements. I am designing a custom **head for the G1 in SolidWorks** with an integrated depth camera, using FEA to validate the parts.
@@ -55,6 +57,7 @@ The G1 needs a camera mount that stays stable during fast movements. I am design
 ## Roadmap
 
 **Blocking**
+- [ ] Perception benchmark on a webcam: OpenCV colour vs YOLO vs SAM 2 vs EfficientTAM across distance, speed, lighting, occlusion and clutter ([protocol](docs/perception-benchmark.md), [code](perception/), [results](perception/results/RESULTS.md))
 - [ ] Camera calibration and camera-to-head extrinsics
 - [ ] Color-based ball detection baseline
 - [ ] 3D tracking with head-motion compensation, validated against OptiTrack

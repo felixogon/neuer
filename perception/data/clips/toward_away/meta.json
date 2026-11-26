@@ -1,0 +1,23 @@
+{
+ "test": "motion",
+ "distance_m": null,
+ "pattern": "toward-away",
+ "motion": "slow",
+ "lighting": "normal",
+ "occlusion": "none",
+ "clutter": "none",
+ "n_balls": 1,
+ "ball": "tennis",
+ "ball_diameter_m": 0.067,
+ "notes": "",
+ "n_frames": 241,
+ "fps": 29.91,
+ "width": 1280,
+ "height": 720,
+ "camera": {
+  "width": 1280,
+  "height": 720,
+  "fps_reported": 30.0
+ },
+ "recorded_at": "2026-11-26T00:27:21"
+}
