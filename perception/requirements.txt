@@ -1,0 +1,11 @@
+torch>=2.5.1
+torchvision>=0.20.1
+opencv-python>=4.9
+numpy
+pandas
+matplotlib
+pyyaml
+tabulate
+imageio
+ultralytics>=8.4.0
+# SAM 2 and EfficientTAM: run `bash setup_models.sh`

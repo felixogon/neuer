@@ -1,0 +1,254 @@
+{
+ "0": {
+  "visible": true,
+  "cx": 637.0,
+  "cy": 341.0,
+  "r": 22.02271554554524,
+  "occluded": false
+ },
+ "5": {
+  "visible": true,
+  "cx": 638.0,
+  "cy": 340.0,
+  "r": 22.20360331117452,
+  "occluded": false
+ },
+ "10": {
+  "visible": true,
+  "cx": 635.0,
+  "cy": 341.0,
+  "r": 21.02379604162864,
+  "occluded": false
+ },
+ "15": {
+  "visible": true,
+  "cx": 642.0,
+  "cy": 339.0,
+  "r": 21.095023109728988,
+  "occluded": false
+ },
+ "20": {
+  "visible": true,
+  "cx": 662.0,
+  "cy": 336.0,
+  "r": 21.37755832643195,
+  "occluded": false
+ },
+ "25": {
+  "visible": true,
+  "cx": 698.0,
+  "cy": 332.0,
+  "r": 21.0,
+  "occluded": false
+ },
+ "30": {
+  "visible": true,
+  "cx": 746.0,
+  "cy": 333.0,
+  "r": 21.0,
+  "occluded": false
+ },
+ "35": {
+  "visible": true,
+  "cx": 792.0,
+  "cy": 329.0,
+  "r": 22.02271554554524,
+  "occluded": false
+ },
+ "40": {
+  "visible": true,
+  "cx": 812.0,
+  "cy": 325.0,
+  "r": 23.08679276123039,
+  "occluded": false
+ },
+ "45": {
+  "visible": true,
+  "cx": 830.0,
+  "cy": 326.0,
+  "r": 24.020824298928627,
+  "occluded": false
+ },
+ "50": {
+  "visible": true,
+  "cx": 830.0,
+  "cy": 330.0,
+  "r": 22.090722034374522,
+  "occluded": false
+ },
+ "55": {
+  "visible": true,
+  "cx": 793.0,
+  "cy": 337.0,
+  "r": 25.019992006393608,
+  "occluded": false
+ },
+ "60": {
+  "visible": true,
+  "cx": 725.0,
+  "cy": 334.0,
+  "r": 23.194827009486403,
+  "occluded": false
+ },
+ "65": {
+  "visible": true,
+  "cx": 642.0,
+  "cy": 333.0,
+  "r": 21.2602916254693,
+  "occluded": false
+ },
+ "70": {
+  "visible": true,
+  "cx": 559.0,
+  "cy": 343.0,
+  "r": 23.021728866442675,
+  "occluded": false
+ },
+ "75": {
+  "visible": true,
+  "cx": 496.0,
+  "cy": 353.0,
+  "r": 20.396078054371138,
+  "occluded": false
+ },
+ "80": {
+  "visible": true,
+  "cx": 441.0,
+  "cy": 365.0,
+  "r": 24.0,
+  "occluded": false
+ },
+ "85": {
+  "visible": true,
+  "cx": 420.0,
+  "cy": 372.0,
+  "r": 24.08318915758459,
+  "occluded": false
+ },
+ "90": {
+  "visible": true,
+  "cx": 446.0,
+  "cy": 368.0,
+  "r": 21.02379604162864,
+  "occluded": false
+ },
+ "95": {
+  "visible": true,
+  "cx": 505.0,
+  "cy": 363.0,
+  "r": 23.706539182259394,
+  "occluded": false
+ },
+ "100": {
+  "visible": true,
+  "cx": 574.0,
+  "cy": 348.0,
+  "r": 22.20360331117452,
+  "occluded": false
+ },
+ "105": {
+  "visible": true,
+  "cx": 644.0,
+  "cy": 335.0,
+  "r": 22.0,
+  "occluded": false
+ },
+ "110": {
+  "visible": true,
+  "cx": 708.0,
+  "cy": 328.0,
+  "r": 23.194827009486403,
+  "occluded": false
+ },
+ "115": {
+  "visible": true,
+  "cx": 760.0,
+  "cy": 324.0,
+  "r": 23.769728648009426,
+  "occluded": false
+ },
+ "120": {
+  "visible": true,
+  "cx": 800.0,
+  "cy": 319.0,
+  "r": 23.53720459187964,
+  "occluded": false
+ },
+ "125": {
+  "visible": true,
+  "cx": 832.0,
+  "cy": 322.0,
+  "r": 23.08679276123039,
+  "occluded": false
+ },
+ "130": {
+  "visible": true,
+  "cx": 828.0,
+  "cy": 321.0,
+  "r": 21.840329667841555,
+  "occluded": false
+ },
+ "135": {
+  "visible": true,
+  "cx": 790.0,
+  "cy": 324.0,
+  "r": 19.235384061671343,
+  "occluded": false
+ },
+ "140": {
+  "visible": true,
+  "cx": 718.0,
+  "cy": 327.0,
+  "r": 22.135943621178654,
+  "occluded": false
+ },
+ "145": {
+  "visible": true,
+  "cx": 628.0,
+  "cy": 339.0,
+  "r": 24.186773244895647,
+  "occluded": false
+ },
+ "150": {
+  "visible": true,
+  "cx": 545.0,
+  "cy": 351.0,
+  "r": 22.02271554554524,
+  "occluded": false
+ },
+ "155": {
+  "visible": true,
+  "cx": 473.0,
+  "cy": 361.0,
+  "r": 22.20360331117452,
+  "occluded": false
+ },
+ "160": {
+  "visible": true,
+  "cx": 420.0,
+  "cy": 372.0,
+  "r": 23.194827009486403,
+  "occluded": false
+ },
+ "165": {
+  "visible": true,
+  "cx": 413.0,
+  "cy": 377.0,
+  "r": 22.561028345356956,
+  "occluded": false
+ },
+ "170": {
+  "visible": true,
+  "cx": 457.0,
+  "cy": 368.0,
+  "r": 22.090722034374522,
+  "occluded": false
+ },
+ "175": {
+  "visible": true,
+  "cx": 552.0,
+  "cy": 352.0,
+  "r": 22.090722034374522,
+  "occluded": false
+ }
+}

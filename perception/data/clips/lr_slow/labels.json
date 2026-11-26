@@ -1,0 +1,261 @@
+{
+ "0": {
+  "visible": true,
+  "cx": 586.0,
+  "cy": 342.0,
+  "r": 20.591260281974,
+  "occluded": false
+ },
+ "5": {
+  "visible": true,
+  "cx": 587.0,
+  "cy": 345.0,
+  "r": 22.80350850198276,
+  "occluded": false
+ },
+ "10": {
+  "visible": true,
+  "cx": 586.0,
+  "cy": 345.0,
+  "r": 23.345235059857504,
+  "occluded": false
+ },
+ "15": {
+  "visible": true,
+  "cx": 587.0,
+  "cy": 344.0,
+  "r": 23.021728866442675,
+  "occluded": false
+ },
+ "20": {
+  "visible": true,
+  "cx": 604.0,
+  "cy": 342.0,
+  "r": 22.561028345356956,
+  "occluded": false
+ },
+ "25": {
+  "visible": true,
+  "cx": 636.0,
+  "cy": 337.0,
+  "r": 23.53720459187964,
+  "occluded": false
+ },
+ "30": {
+  "visible": true,
+  "cx": 683.0,
+  "cy": 334.0,
+  "r": 22.80350850198276,
+  "occluded": false
+ },
+ "35": {
+  "visible": true,
+  "cx": 729.0,
+  "cy": 333.0,
+  "r": 21.213203435596427,
+  "occluded": false
+ },
+ "40": {
+  "visible": true,
+  "cx": 765.0,
+  "cy": 330.0,
+  "r": 24.186773244895647,
+  "occluded": false
+ },
+ "45": {
+  "visible": true,
+  "cx": 796.0,
+  "cy": 330.0,
+  "r": 23.53720459187964,
+  "occluded": false
+ },
+ "50": {
+  "visible": true,
+  "cx": 808.0,
+  "cy": 330.0,
+  "r": 22.360679774997898,
+  "occluded": false
+ },
+ "55": {
+  "visible": true,
+  "cx": 807.0,
+  "cy": 329.0,
+  "r": 24.331050121192877,
+  "occluded": false
+ },
+ "60": {
+  "visible": true,
+  "cx": 804.0,
+  "cy": 329.0,
+  "r": 24.331050121192877,
+  "occluded": false
+ },
+ "65": {
+  "visible": true,
+  "cx": 790.0,
+  "cy": 328.0,
+  "r": 25.632011235952593,
+  "occluded": false
+ },
+ "70": {
+  "visible": true,
+  "cx": 749.0,
+  "cy": 327.0,
+  "r": 23.345235059857504,
+  "occluded": false
+ },
+ "75": {
+  "visible": true,
+  "cx": 684.0,
+  "cy": 332.0,
+  "r": 24.515301344262525,
+  "occluded": false
+ },
+ "80": {
+  "visible": true,
+  "cx": 615.0,
+  "cy": 337.0,
+  "r": 23.08679276123039,
+  "occluded": false
+ },
+ "85": {
+  "visible": true,
+  "cx": 551.0,
+  "cy": 340.0,
+  "r": 22.47220505424423,
+  "occluded": false
+ },
+ "90": {
+  "visible": true,
+  "cx": 500.0,
+  "cy": 339.0,
+  "r": 23.08679276123039,
+  "occluded": false
+ },
+ "95": {
+  "visible": true,
+  "cx": 470.0,
+  "cy": 338.0,
+  "r": 21.840329667841555,
+  "occluded": false
+ },
+ "100": {
+  "visible": true,
+  "cx": 460.0,
+  "cy": 340.0,
+  "r": 23.345235059857504,
+  "occluded": false
+ },
+ "105": {
+  "visible": true,
+  "cx": 462.0,
+  "cy": 342.0,
+  "r": 23.345235059857504,
+  "occluded": false
+ },
+ "110": {
+  "visible": true,
+  "cx": 484.0,
+  "cy": 340.0,
+  "r": 22.02271554554524,
+  "occluded": false
+ },
+ "115": {
+  "visible": true,
+  "cx": 525.0,
+  "cy": 339.0,
+  "r": 24.0,
+  "occluded": false
+ },
+ "120": {
+  "visible": true,
+  "cx": 581.0,
+  "cy": 337.0,
+  "r": 24.020824298928627,
+  "occluded": false
+ },
+ "125": {
+  "visible": true,
+  "cx": 649.0,
+  "cy": 330.0,
+  "r": 23.769728648009426,
+  "occluded": false
+ },
+ "130": {
+  "visible": true,
+  "cx": 711.0,
+  "cy": 321.0,
+  "r": 23.0,
+  "occluded": false
+ },
+ "135": {
+  "visible": true,
+  "cx": 761.0,
+  "cy": 318.0,
+  "r": 23.021728866442675,
+  "occluded": false
+ },
+ "140": {
+  "visible": true,
+  "cx": 797.0,
+  "cy": 317.0,
+  "r": 23.021728866442675,
+  "occluded": false
+ },
+ "145": {
+  "visible": true,
+  "cx": 819.0,
+  "cy": 315.0,
+  "r": 22.0,
+  "occluded": false
+ },
+ "150": {
+  "visible": true,
+  "cx": 815.0,
+  "cy": 320.0,
+  "r": 25.495097567963924,
+  "occluded": false
+ },
+ "155": {
+  "visible": true,
+  "cx": 787.0,
+  "cy": 326.0,
+  "r": 25.0,
+  "occluded": false
+ },
+ "160": {
+  "visible": true,
+  "cx": 723.0,
+  "cy": 329.0,
+  "r": 23.0,
+  "occluded": false
+ },
+ "165": {
+  "visible": true,
+  "cx": 641.0,
+  "cy": 333.0,
+  "r": 24.331050121192877,
+  "occluded": false
+ },
+ "170": {
+  "visible": true,
+  "cx": 567.0,
+  "cy": 333.0,
+  "r": 22.360679774997898,
+  "occluded": false
+ },
+ "175": {
+  "visible": true,
+  "cx": 495.0,
+  "cy": 337.0,
+  "r": 25.0,
+  "occluded": false
+ },
+ "180": {
+  "visible": true,
+  "cx": 447.0,
+  "cy": 338.0,
+  "r": 22.80350850198276,
+  "occluded": false
+ }
+}
